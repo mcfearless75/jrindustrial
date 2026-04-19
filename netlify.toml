@@ -1,0 +1,39 @@
+[[redirects]]
+  from = "/clothing-footwear"
+  to   = "/clothing-footwear.html"
+  status = 200
+
+[[redirects]]
+  from = "/safety-equipment"
+  to   = "/safety-equipment.html"
+  status = 200
+
+[[redirects]]
+  from = "/janitorial-drinks"
+  to   = "/janitorial-drinks.html"
+  status = 200
+
+[[redirects]]
+  from = "/tools-accessories"
+  to   = "/tools-accessories.html"
+  status = 200
+
+[[redirects]]
+  from = "/bundle-deals"
+  to   = "/bundle-deals.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to   = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to   = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to   = "/privacy.html"
+  status = 200
