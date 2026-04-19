@@ -7,6 +7,8 @@
   <meta name="description" content="JR Industrial Ltd supply PPE, workwear, safety equipment and janitorial products across the UK. Based in Stoke-on-Trent. Next-day delivery via APC Overnight.">
   <link rel="canonical" href="https://jrindustrial.co.uk/">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/favicon.svg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,7 +32,9 @@
 
 <nav class="nav">
   <div class="container nav-inner">
-    <a href="/" class="nav-logo">JR <span>Industrial</span></a>
+    <a href="/" class="nav-logo" aria-label="JR Industrial Ltd — Home">
+      <img src="/images/logo.png" alt="JR Industrial Ltd" class="nav-logo-img">
+    </a>
     <ul class="nav-links">
       <li><a href="/clothing-footwear.html">Clothing &amp; Footwear</a></li>
       <li><a href="/safety-equipment.html">Safety Equipment</a></li>
@@ -48,7 +52,8 @@
 </nav>
 
 <section class="hero">
-  <div class="hero-fallback"></div>
+  <img src="/images/banner-ppe.jpg" alt="" class="hero-bg" aria-hidden="true">
+  <div class="hero-overlay"></div>
   <div class="container hero-content">
     <h1>Industrial Supplies <span>Done Right</span></h1>
     <p>PPE, workwear, safety equipment and janitorial products — delivered next day, UK-wide.</p>
@@ -78,13 +83,13 @@
   </div>
 </div>
 
-<section class="section section-light">
+<section class="section section-light section-watermark">
   <div class="container">
     <h2 class="section-title fade-up">Our <span>Product Range</span></h2>
     <p class="section-subtitle fade-up">Everything your workplace needs — from hi-vis to hand cleaner.</p>
     <div class="category-grid">
       <div class="category-card fade-up">
-        <div class="category-card-img">🦺</div>
+        <div class="category-card-img"><img src="/images/banner-clothing.jpg" alt="Clothing and Footwear"></div>
         <div class="category-card-body">
           <h3>Clothing &amp; Footwear</h3>
           <p>Hi-vis, coveralls, safety boots, arc flash, polos, trousers and disposable workwear.</p>
@@ -92,7 +97,7 @@
         </div>
       </div>
       <div class="category-card fade-up">
-        <div class="category-card-img">🥽</div>
+        <div class="category-card-img"><img src="/images/banner-ppe.jpg" alt="Safety Equipment"></div>
         <div class="category-card-body">
           <h3>Safety Equipment</h3>
           <p>Gloves, respirators (FFP2/FFP3), eye protection, first aid, ear protection and disposable PPE.</p>
@@ -100,7 +105,7 @@
         </div>
       </div>
       <div class="category-card fade-up">
-        <div class="category-card-img">🧹</div>
+        <div class="category-card-img"><img src="/images/banner-collection.jpg" alt="Janitorial and Drinks"></div>
         <div class="category-card-body">
           <h3>Janitorial &amp; Drinks</h3>
           <p>Cleaning chemicals, bin bags, paper products, soap, sanitiser, tea, coffee and spill kits.</p>
@@ -108,7 +113,7 @@
         </div>
       </div>
       <div class="category-card fade-up">
-        <div class="category-card-img">🔧</div>
+        <div class="category-card-img"><img src="/images/bundle-deal.jpg" alt="Tools and Accessories"></div>
         <div class="category-card-body">
           <h3>Tools &amp; Accessories</h3>
           <p>Brushes, utility knives, mops, stationery, workplace furniture and sanding products.</p>
@@ -193,7 +198,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="nav-logo">JR <span>Industrial</span></div>
+        <img src="/images/logo.png" alt="JR Industrial Ltd" class="footer-logo-img">
         <p>Unit J1 Metro Business Park<br>Clough Street, Stoke-on-Trent<br>ST1 4AF</p>
         <p style="margin-top:12px;">01782 262888<br>sales@jrindustrial.co.uk<br>Mon–Fri 8am–5pm</p>
       </div>
