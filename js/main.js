@@ -11,7 +11,7 @@ if (hamburger && navLinks) {
 // Active nav link
 const currentPath = window.location.pathname.replace(/\/$/, '');
 document.querySelectorAll('.nav-links a').forEach(a => {
-  const href = a.getAttribute('href').replace(/\/$/, '');
+  const href = (a.getAttribute('href') || '').replace(/\/$/, '');
   if (href === currentPath || (currentPath === '' && href === '/index.html')) {
     a.classList.add('active');
   }
