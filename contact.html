@@ -78,8 +78,11 @@
       </div>
       <div>
         <h2 class="section-title fade-up" style="margin-bottom:32px;">Send an <span>Enquiry</span></h2>
-        <form name="contact" data-netlify="true" class="form-light fade-up">
-          <input type="hidden" name="form-name" value="contact">
+        <form action="https://formsubmit.co/sales@jrindustrial.co.uk" method="POST" class="form-light fade-up">
+          <input type="hidden" name="_subject" value="New enquiry from JR Industrial website" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
           <div class="form-grid">
             <div class="form-group">
               <label for="name">Your Name</label>

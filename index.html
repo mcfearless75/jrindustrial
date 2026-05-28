@@ -168,8 +168,11 @@
   <div class="container" style="max-width:700px;">
     <h2 class="section-title fade-up" style="color:var(--text-light);text-align:center;">Quick Enquiry</h2>
     <p class="fade-up" style="text-align:center;color:var(--text-muted);margin-bottom:32px;font-weight:300;">Not on the portal yet? Drop us a message and we'll get back to you same day.</p>
-    <form name="enquiry" data-netlify="true" class="fade-up">
-      <input type="hidden" name="form-name" value="enquiry">
+    <form action="https://formsubmit.co/sales@jrindustrial.co.uk" method="POST" class="fade-up">
+      <input type="hidden" name="_subject" value="New enquiry from JR Industrial website" />
+      <input type="hidden" name="_captcha" value="true" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="form-grid">
         <div class="form-group">
           <label for="name">Your Name</label>
